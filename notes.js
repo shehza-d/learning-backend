@@ -26,3 +26,8 @@ app.listen(process.env.PORT || 3000, () => console.log(`Shehzad app is avaliable
 
 // ? process.env.NODE_ENV
 // use promises instead of callbacks to avoid callbacks hell
+
+// server Hosters
+// google cloud
+// hareko
+// cyclic
