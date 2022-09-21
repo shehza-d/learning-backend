@@ -25,9 +25,54 @@ app.listen(process.env.PORT || 3000, () => console.log(`Shehzad app is avaliable
 
 
 // ? process.env.NODE_ENV
+
+$$$$$$$$$$$$$$$$$  NOTES  $$$$$$$$$$$$$$$$$$$$$$$$$
 // use promises instead of callbacks to avoid callbacks hell
 
 // server Hosters
 // google cloud
 // hareko
 // cyclic
+
+//21-Sep-2022
+// server is a software mosly referd hardware
+// server per load zada aayga tw wo crash kare ga agar axha code hoga tw deer se response aay ga aur bura code hoga tw crash kar jae ga
+// (what is load balancer)orkestration system=kuberneties
+// host=mazban  || server=serve karne wala ||   |||||||
+// request bhaja jae ga JSON ma aur server ka response JSON ma hoga = REST API
+// client server comminution 
+// QraphQL is new and experimantal and REST API
+// URL ?? (head=, body)
+// Methods = ( get=server ko bhajna, post=secrat data like psw, delete, )
+// encrutp (kon karta hy?)
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
