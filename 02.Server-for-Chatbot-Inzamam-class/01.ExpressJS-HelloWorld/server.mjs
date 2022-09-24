@@ -3,7 +3,6 @@ console.log(`Im sever file from Shehzad`)
 
 
 // code from Express Website  https://expressjs.com/en/starter/hello-world.html
-// old way of importing const express = require('express')
 
 import express from 'express' //new way
 const app = express()

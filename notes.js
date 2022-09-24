@@ -28,6 +28,8 @@ app.listen(process.env.PORT || 3000, () => console.log(`Shehzad app is avaliable
 
 $$$$$$$$$$$$$$$$$  NOTES  $$$$$$$$$$$$$$$$$$$$$$$$$
 // use promises instead of callbacks to avoid callbacks hell
+// old way of importing const express = require('express')
+// code from Express Website  https://expressjs.com/en/starter/hello-world.html
 
 // server Hosters
 // google cloud
@@ -46,9 +48,9 @@ $$$$$$$$$$$$$$$$$  NOTES  $$$$$$$$$$$$$$$$$$$$$$$$$
 // Methods = ( get=server ko bhajna, post=secrat data like psw, delete, )
 // encrutp (kon karta hy?)
 // 
-// 
-// 
-// 
+// 23-sep-2022
+// port = andar bahar jane ka rasta
+// cora npm = ye ye batata hy kon kon mere server ko call kare ka
 // 
 // 
 // 
