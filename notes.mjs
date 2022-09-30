@@ -1,3 +1,16 @@
+$$$$$$$$$$  COMMANDS TO CREATE    $$$$$$$$$$$$$$$
+// npm init   (to initinil node project)
+// npm install express  (to initilize express project) express ky liye
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+
+
+$$$$$$$$$$$$$$$$$$$$$$$
 console.log(process.platform)
 console.log(process.env.USER)
 
@@ -53,8 +66,8 @@ $$$$$$$$$$$$$$$$$  NOTES  $$$$$$$$$$$$$$$$$$$$$$$$$
 // port = andar bahar jane ka rasta
 // cora npm = ye ye batata hy kon kon mere server ko call kare ka
 // 
-// 
-// 
+// 28-sep-2022
+// Express ko samjho sahi se
 // 
 // 
 // 
