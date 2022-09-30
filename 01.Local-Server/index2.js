@@ -1,6 +1,3 @@
-console.log(process.platform)
-console.log(process.env.USER)
-
 // const {readFile} = require('fs').promises;
 // const file = await =()=>{
 // 	console.log('shehzad');

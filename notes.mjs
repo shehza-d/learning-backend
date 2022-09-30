@@ -1,6 +1,7 @@
 console.log(process.platform)
 console.log(process.env.USER)
 
+	TOP LEVEL AWAIT ? 
 // const {readFile} = require('fs').promises;
 // const file = await =()=>{
 // 	console.log('shehzad');
