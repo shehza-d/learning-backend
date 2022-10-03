@@ -1,13 +1,5 @@
 $$$$$$$$$$  COMMANDS TO CREATE    $$$$$$$$$$$$$$$
-// npm init   (to initinil node project)
-// npm install express  (to initilize express project) express ky liye
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+fluter is none scence thing jo hui hy 5 saalo ma
 
 
 $$$$$$$$$$$$$$$$$$$$$$$
@@ -69,22 +61,61 @@ $$$$$$$$$$$$$$$$$  NOTES  $$$$$$$$$$$$$$$$$$$$$$$$$
 // 28-sep-2022
 // Express ko samjho sahi se
 // 
+// 30-sep-2022
+// nodemon
+// server per variable nhi banty ye Rest API ky rules ky khilaf hy
+// cors library
+// polling is also not recommended
+// ak variable agar 1 bit le raha hy tw agar 1 lac user hyn tw...
+// REST API principles
+//    1 . Uniform interface
+//    2 . Clint-Server (these 2 should be different)
+//    3 . Stateless  
+//    4 . Cacheable (ak photo 2 bar na aay ya jae)
+//    5 . Layered System
+//    6 . Code on demand
+// server band kyu hoty hyn                      ?
+// 512MB ram hoti hy server ma so use responsively
+// orkistration system   (kubernaties is most popular Oski...)
+// nodemon (isko install karna hota hy npm se)(cloud ma ye allow nhi)
+// start ky illawa sab kam npm run se hoga
+// npm run dev ("dev" : "nodemon filename.js"  <= put this in package.json in scritps)
+// npm packages cache ma hoty hyn             ?
+// server per kuxh nhi chorna Post se aaya data Get se gya data khatam
 // 
 // 
+$$$$$$$$$$   MONGO DB  $$$$$$$$$$$
+// 10 Years hogye hyn its muture and completed its tenoure
+// scehmaless hy ye but ap scehma use bhi kar sagty ho
 // 
+// Big Data
+//    volume (atleast 1TB)
+//    frequence (AI)
+//    scehmaless (kuxh pata nhi data ma kya aajaye)
+//     ()
+// social media are war machine
+// puri dunya ma har koi call record karti hyn
 // 
+
+3-Oct-2022
+// cors
 // 
+// mongooes library is good for web not for big data
+// mongooes provide schema and validation
 // 
+// firebase shuru ma bhOt aasan hy but advance wala mongoDB se zada mushkil hy
+// firebase is a total failer (sir inzamam)
+// server user se qareeb hona chiye (developer se qareeb nhi hona chiye) aur DB server se qareeb hona chiye
+// Database Adminstration
+// SQL dosen't update fast but it update at same time(bank need SQL nhi tw 2 bar cash withdraw ho jae)(query is also slow)
+// Social media need NoSQL 
+//
+// replica dataset (to)
+// data wharehouse
 // 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// http Status
+// 500 (agar server per error ho)
+// 404 (page not found)
 // 
 // 
 // 
