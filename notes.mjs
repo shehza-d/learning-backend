@@ -120,6 +120,7 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // 
 // 
 // 
-// 
+// poling is not recomended (to call sever every 5s)
+// setInterval(refresh(), 5000);
 // 
 // 
