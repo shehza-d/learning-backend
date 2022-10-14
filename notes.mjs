@@ -123,4 +123,6 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // poling is not recomended (to call sever every 5s)
 // setInterval(refresh(), 5000);
 // 
+14-oct-2022
+// await wala kam try{} catch(err){ cl(err)} ma karty hyn
 // 
