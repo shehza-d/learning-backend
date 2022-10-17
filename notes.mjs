@@ -126,3 +126,11 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 14-oct-2022
 // await wala kam try{} catch(err){ cl(err)} ma karty hyn
 // 
+12-oct-2022
+// search dialogflow on yt 
+// make google dialogflow community
+// attend confrence
+// async use karo tw call back nhi lagana
+// 
+//
+//
