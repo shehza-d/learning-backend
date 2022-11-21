@@ -142,9 +142,9 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // server is a software that can run on cloud 
 // cloud per kuxh nhi hota sabkuxh zameen per hota hy
 // package.lock.json lock se files ky version lock ho jaty hyn
-// 
-// 
-// 
+// speed || space
+// time is important then space
+// JWT auth and other for social login 
 // 
 // 
 // 
