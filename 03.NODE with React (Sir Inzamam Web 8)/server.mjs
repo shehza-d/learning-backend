@@ -1,0 +1,1 @@
+console.log("server with mjs with node --watch  ")

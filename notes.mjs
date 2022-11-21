@@ -134,3 +134,25 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // 
 //
 //
+
+21-Nov-2022
+// starting NODE Server with expressJS in Web 8 class 
+// browser ma chalne wali amd 
+// comman purani aur module nayi server per chalne wali
+// server is a software that can run on cloud 
+// cloud per kuxh nhi hota sabkuxh zameen per hota hy
+// package.lock.json lock se files ky version lock ho jaty hyn
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
