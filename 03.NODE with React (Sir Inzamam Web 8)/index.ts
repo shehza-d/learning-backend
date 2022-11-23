@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 console.log("Hello World! Ultra pro max");
 
-app.get("/", (req, res) => {
+app.get("/", (req: express.Request, res: express.Response): void => {
   res.send(`"Hello World!", ${req.ip}`);
 });
 
