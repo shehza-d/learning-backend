@@ -1,7 +1,10 @@
+// npm i --save-dev @types/express
+
 import express from "express";
 // const express = require('express')
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
+
 console.log("Hello World! Ultra pro max");
 
 app.get("/", (req, res) => {
@@ -11,4 +14,3 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-// npm i --save-dev @types/express

@@ -149,7 +149,9 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // 
 // 
 23-Nov-2022
-// 
+// npm i --save-dev @types/express
+// server with mjs with node --watch
+// CYCLIC ma enviormint variable save karky code ma process.env.variable_ka_nam
 // 
 // 
 // 
