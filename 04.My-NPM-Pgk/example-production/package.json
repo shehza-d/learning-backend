@@ -1,0 +1,20 @@
+{
+  "name": "shehzad-cli",
+  "version": "1.0.0",
+  "description": "Writing my name in CLI with NODE JS and publishing it to NPM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shehza-d/node-cli-fun.git"
+  },
+  "author": "shehzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shehza-d/node-cli-fun/issues"
+  },
+  "homepage": "https://github.com/shehza-d/node-cli-fun#readme"
+}
