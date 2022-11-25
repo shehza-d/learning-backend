@@ -159,3 +159,18 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // 
 // 
 // 
+25-Nov-2022
+// DevOps
+// express app ko host karne ko google app engine 
+// docker = kubernaites
+// app.get jab req aay gyi tw chale ga 
+// but app.use har waqt chale ga
+// __dirname = folder name
+// path node ki default library
+// express per aani wali req pipeline machmanezim se guzarti hy 
+// brower router is better then hash router 
+// hash router is not good for SEO
+// 
+// 
+// 
+// 
