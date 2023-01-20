@@ -172,5 +172,15 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // hash router is not good for SEO
 // 
 // 
-// 
-// 
+19-Jan-2022
+(Sir Inzamam)
+ WebRTC protocol for call (on-top TPC)
+Ye server aur client dono per chalana hota hy
+Full text search 🔍
+Data structure wo tareeka hy data sajane ka jis se us data per query aur CURD perform karna aasan ho RAM ma ya Rom ma ya db ma
+
+Binary search
+Agar data sorted nhi hy tw uspe binary search nhi chale ga
+
+Liener search nhi karni hoti
+ Mongo ki id sorted hoti hy aur phale wale se bari hoti hy
