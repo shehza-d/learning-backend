@@ -1,0 +1,43 @@
+{
+  "name": "chatapp-realtime-server",
+  "version": "1.0.0",
+  "description": "Realtime Socket.io Server for SMIT Chat app",
+  "main": "/dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.mjs",
+    "dev": "nodemon dist/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shehza-d/Chat-App.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Shehzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shehza-d/Chat-App/issues"
+  },
+  "homepage": "https://github.com/shehza-d/Chat-App#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "bcrypt-inzi": "^1.0.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.11.11",
+    "nodemon": "^2.0.20"
+  }
+}
