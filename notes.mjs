@@ -1,5 +1,5 @@
 $$$$$$$$$$  COMMANDS TO CREATE    $$$$$$$$$$$$$$$
-fluter is none scence thing jo hui hy 5 saalo ma
+// fluter is none scence thing jo hui hy 5 saalo ma
 
 
 $$$$$$$$$$$$$$$$$$$$$$$
@@ -173,14 +173,32 @@ $$$$$$$$$$   MONGO DB  $$$$$$$$$$$
 // 
 // 
 19-Jan-2022
-(Sir Inzamam)
- WebRTC protocol for call (on-top TPC)
-Ye server aur client dono per chalana hota hy
-Full text search 🔍
-Data structure wo tareeka hy data sajane ka jis se us data per query aur CURD perform karna aasan ho RAM ma ya Rom ma ya db ma
+// (Sir Inzamam)
+//  WebRTC protocol for call (on-top TPC)
+// Ye server aur client dono per chalana hota hy
+// Full text search 🔍
+// Data structure wo tareeka hy data sajane ka jis se us data per query aur CURD perform karna aasan ho RAM ma ya Rom ma ya db ma
 
-Binary search
-Agar data sorted nhi hy tw uspe binary search nhi chale ga
+// Binary search
+// Agar data sorted nhi hy tw uspe binary search nhi chale ga
 
-Liener search nhi karni hoti
- Mongo ki id sorted hoti hy aur phale wale se bari hoti hy
+// Liener search nhi karni hoti
+//  Mongo ki id sorted hoti hy aur phale wale se bari hoti hy
+
+1-Mar-2023
+/*
+28-feb-2023
+folder structure
+- The util. js file contains a set of JavaScript utility functions that are used across multiple components.
+- Utils folder consists of some repeatedly used functions that are commonly used in the project. It should contain only common js functions & objects like dropdown options, regex condition, data formatting, etc.
+- /utils is a place where you can place small snippets you can use throughout the application.
+-
+- for storing all utility functions such as formatters.
+- 
+- 
+- 
+- 
+- https://github.com/stars/shehza-d/lists/back-end
+- https://github.com/practicajs/practica
+- https://practica.dev/
+*/
