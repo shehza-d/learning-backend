@@ -1,4 +1,10 @@
-# Learning APIs and [Postman](https://academy.postman.com/)
+# Learning APIs and Postman
+
+## [Postman Learning Docs](https://academy.postman.com/)
+
+## [Postman Academy](https://academy.postman.com/)
+
+<br>
 
 [API Development Lifecycle](https://apis.how//products/web-design/)
 
