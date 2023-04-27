@@ -1,12 +1,7 @@
 # Learning-NODE JS and Express Servers
 
-## [List of all DataBases](https://technically.dev/database-database)
+Explore each folder for its Learning Resources
 
+## [Node best practices](https://github.com/goldbergyoni/nodebestpractices)
 
-## [Postman](https://learning.postman.com/docs/getting-started/introduction/)
-
-## repo to put code of NodeJS and ExpressJS
-
-- [Create-Node-App](https://practica.dev/)
-- [Node best practices](https://github.com/goldbergyoni/nodebestpractices)
-- []()
+<h3 align="center">Show some ❤ by <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> some repositories</h3>
