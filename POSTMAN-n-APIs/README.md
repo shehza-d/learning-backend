@@ -1,6 +1,6 @@
 # Learning APIs and Postman
 
-## [Postman Learning Docs](https://academy.postman.com/)
+## [Postman Learning Docs](https://learning.postman.com/docs/getting-started/introduction/)
 
 ## [Postman Academy](https://academy.postman.com/)
 
