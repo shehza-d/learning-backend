@@ -196,9 +196,20 @@ folder structure
 - for storing all utility functions such as formatters.
 - 
 - 
-- 
-- 
 - https://github.com/stars/shehza-d/lists/back-end
 - https://github.com/practicajs/practica
 - https://practica.dev/
+
+14-jul-2023
+Type of hosting
+- nano (lambda)
+- micro service arciture (cyclic,vercel)(backgroud kubernaties)
+- linux machine
+
+what is stateless for laymen?
+
+kya express ma cache ho jata hy?
+
+api case??
+
 */
