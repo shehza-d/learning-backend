@@ -4,7 +4,13 @@
 
 ### [List of all DataBases](https://technically.dev/database-database)
 
-### Big Data
+## SQL vs NoSQL
+
+- Being Schema-less is the need of new era
+- Bank cash withdraw vs Facebook post
+- NoSQL has features of both NoSQL and SQL
+
+## [Big Data](https://www.oracle.com/pk/big-data/what-is-big-data/)
 
 - Big is the need of this era
 - Quality of Big Data
