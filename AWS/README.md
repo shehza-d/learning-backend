@@ -9,3 +9,7 @@
 ### [AWS Training](https://www.aws.training/)
 
 ### [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
+
+
+https://youtu.be/_U0pTlpyMGg
+https://www.youtube.com/playlist?list=PLinedj3B30sA0V3kLZoV0qEo5nOLyRjYA
