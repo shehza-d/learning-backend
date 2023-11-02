@@ -10,6 +10,10 @@
 
 ### [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
 
+#### [AWS Serverless💯](https://youtube.com/playlist?list=PL5bUlblGfe0IbG-x7oMk-LnK_naL7grF_&si=t2-Y-nxHA-EW87j4)
+
+#### [Frontend Web & Mobile on AWS](https://youtube.com/playlist?list=PL5bUlblGfe0KFsrEXuDRvHtLlRueMqh7E&si=dvhsAho551okZgkz)
+
 
 https://youtu.be/_U0pTlpyMGg
 https://www.youtube.com/playlist?list=PLinedj3B30sA0V3kLZoV0qEo5nOLyRjYA
