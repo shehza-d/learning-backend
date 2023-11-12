@@ -212,4 +212,15 @@ kya express ma cache ho jata hy?
 
 api case??
 
+
+11-Nov
+
+```bash
+$ cat /proc/cpuinfo
+$ uname -m
+```
+
+
+
+
 */
