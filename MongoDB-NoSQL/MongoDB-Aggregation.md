@@ -1,6 +1,6 @@
 # Introduction to MongoDB Aggregation
 
-This section contains key definitions for this lesson, as well as the code for an aggregation pipeline.
+A way to filter, sort, group, reshape, and analyze data.
 
 ## Definitions
 
@@ -32,6 +32,7 @@ db.collection.aggregate([
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | `$match` | Filter for docs matching criteria (place early as possible)                                                                           |
 | `$group` | Create a single docs for each distinct value , groups docs by a group key and output is 1 doc for each unique value of the group key. |
+| `$out`   | Store the aggregation output in a collection. (Should be last stage)                                                                  |
 
 ## Using `$match` and `$group` Stages in a MongoDB Aggregation Pipeline
 
@@ -157,3 +158,5 @@ The `$count` stage creates a new document, with the number of documents at that 
 ```php
 { $count: "total_zips" }
 ```
+
+`$set` is used to create or change values of new or existing fields. `$project` can be used to create or change the value of fields, but it can also be used to specify which fields to show in the documents in the aggregation pipeline. `$set` and `$project` can both create and assign values to fields, but only `$project` can be used to reshape the data.
