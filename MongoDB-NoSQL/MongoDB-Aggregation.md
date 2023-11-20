@@ -28,11 +28,16 @@ db.collection.aggregate([
 ]);
 ```
 
-| Stages   | Definition                                                                                                                            |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `$match` | Filter for docs matching criteria (place early as possible)                                                                           |
-| `$group` | Create a single docs for each distinct value , groups docs by a group key and output is 1 doc for each unique value of the group key. |
-| `$out`   | Store the aggregation output in a collection. (Should be last stage)                                                                  |
+| Stages     | Definition                                                                                                                             |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `$match`   | Filter for docs matching criteria (place early as possible)                                                                            |
+| `$group`   | Create a single docs for each distinct value , groups docs by a group key and output is 1 doc for each unique value of the group key.  |
+|`$sort`|Sorts all input docs and passes them through pipeline in sorted order.|
+|`$limit`|Limits the number of docs passes to the next aggregation stage.|
+| `$project` | Determines output doc shape. (Should be last stage)                                                                                    |
+| `$set`     | Useful for adjusting existing fields or adding new ones in the pipeline, especially when preparing for upcoming stages in the process. |
+| `$count`   | Returns total docs in pipeline.                                                                                                        |
+| `$out`     | Store the aggregation output in a collection. (Should be last stage)                                                                   |
 
 ## Using `$match` and `$group` Stages in a MongoDB Aggregation Pipeline
 
@@ -130,7 +135,7 @@ The `$project` stage specifies the fields of the output documents. 1 means that 
   $project: {
     state: 1,
     zip: 1,
-    population: "$pop",
+    population: "$pop",// pop value will be returned under population
     _id: 0,
   },
 }
