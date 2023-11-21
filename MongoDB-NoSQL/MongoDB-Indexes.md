@@ -40,6 +40,29 @@ Use `getIndexes()` to see all the indexes created in a collection.
 db.customers.getIndexes();
 ```
 
+## Understanding Multikey Indexes
+
+Multikey indexes support efficient queries against array fields by creating an index key for each element in the array. This allows MongoDB to search for the index key of each element in the array rather than scan the entire array, which results in dramatic performance gains in your queries.
+The maximum number of array fields per multikey index is 1. If an index has multiple fields, only one of them can be an array.
+
+Review the code below, which demonstrates how multikey indexes work. If a single field or compound index includes an array field, then the index is a multikey index.
+
+### Create a Single field Multikey Index
+
+Use `createIndex()` to create a new index in a collection. Include an object as parameter that contains the array field and sort order. In this example `accounts` is an array field.
+
+```js
+db.customers.createIndex({ accounts: 1 });
+```
+
+### View the Indexes used in a Collection
+
+Use `getIndexes()` to see all the indexes created in a collection.
+
+```js
+db.customers.getIndexes();
+```
+
 ## Check if an index is being used on a query
 
 Use `explain()` in a collection when running a query to see the Execution plan. This plan provides the details of the execution stages (IXSCAN , COLLSCAN, FETCH, SORT, etc.).
@@ -63,3 +86,7 @@ db.customers
   })
   .sort({ email: 1 });
 ```
+
+## Points
+
+- Unique indexes ensure that indexed fields do not store duplicate values. In this example, MongoDB will return a duplicate key error if you attempt to insert a new document with an email that already exists in the collection, as the unique constraint was set to true.
