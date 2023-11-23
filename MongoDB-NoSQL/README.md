@@ -37,3 +37,7 @@ db.zips.findAndModify({
 ### Answer
 
 A new document would be inserted because the upsert option is set to true. When the upsert option is set to true, a new document will be inserted if one does not already exist. For existing documents, the upsert option will cause the document to be updated.
+
+---
+
+### [A Spotify Song and Playlist Recommendation Engine (Case studies)](https://www.mongodb.com/developer/code-examples/python/song-recommendations-example-app)
