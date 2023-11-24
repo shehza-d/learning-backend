@@ -6,6 +6,11 @@
 
 - A search index is used to describe how the application search algorithm should work. You can customize this with Atlas Search.
 - A search with a dynamic index will query against all of the fields, including nested fields, with equal weight placed on all fields.
+- The “filter” clause eliminates results that match the clause.
+- "Must", "must not", and "should" are all clauses, but "filter" does not impact the score given to the results.
+- **Facets:** Buckets that we group our search results into.
+- To group your search results, use the facet operator.
+- To view the search metadata (facets and their count), use the `$searchMeta` stage.
 
 ## Using `$search` and Compound Operators
 
@@ -40,6 +45,44 @@ The compound operator within the `$search` aggregation stage allows us to give w
   },
 ];
 ```
+
+## Grouping Search Results by Using Facets
+
+`$searchMeta` and `$facet`
+
+`$searchMeta` is an aggregation stage for Atlas Search where the metadata related to the search is shown. This means that if our search results are broken into buckets, using `$facet`, we can see that in the `$searchMeta` stage, because those buckets are information about how the search results are formatted.
+
+```js
+[
+  {
+    $searchMeta: {
+      facet: {
+        operator: {
+          text: {
+            query: ["Northern Cardinal"],
+            path: "common_name",
+          },
+        },
+      },
+      facets: {
+        sightingWeekFacet: {
+          type: "date",
+          path: "sighting",
+          boundaries: [
+            ISODate("2022-01-01"),
+            ISODate("2022-01-08"),
+            ISODate("2022-01-15"),
+            ISODate("2022-01-22"),
+          ],
+          default: "other",
+        },
+      },
+    },
+  },
+];
+```
+
+"facet" is an operator within $searchMeta. "operator" refers to the search operator - the query itself. "facets" operator is where we put the definition of the buckets for the facets.
 
 https://learn.mongodb.com/learn/course/mongodb-atlas-search/lesson-2-creating-a-search-index-with-dynamic-mapping/learn?client=customer
 
