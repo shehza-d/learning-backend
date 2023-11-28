@@ -2,7 +2,6 @@
 
 Data that is accessed together should be stored together. How you model your data depends entirely on your particular application's data access patterns. You want to structure your data to match the ways that your application queries and updates it.
 
-
 <img src='./relationships.png'/>
 
 ## Points
