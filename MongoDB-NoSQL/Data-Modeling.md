@@ -1,6 +1,7 @@
 # Data Modeling
 
-Data that is accessed together should be stored together.
+Data that is accessed together should be stored together. How you model your data depends entirely on your particular application's data access patterns. You want to structure your data to match the ways that your application queries and updates it.
+
 
 <img src='./relationships.png'/>
 
@@ -30,8 +31,51 @@ These are 2 primary way to model relationships in MongoDB
 Here's a quick summary of the pro's and con's of embedding vs. referencing in MongoDB:
 <img src='./embedding.png'/>
 
-1. **Embedding:** We take related data and insert it into our document. Also called `Nested Documents` (i.e this is not vector embedding)
+1. **Embedding:** We take related data and insert it into our document.
 
-1. **Referencing:** We refer to documents in another collection in our document.
+   - Also called `Nested Documents` (i.e this is not vector embedding).
+   - Avoids application joins
+   - Provides better performance for read operations.
+   - Embedding data simplifies queries because it avoids application joins. It fulfills the principle that data that is accessed together should be stored together.
+   - Embedding data provides better performance for read operations. Embedded documents enable you to store all kinds of related information in a single document.
+   - Embedding is often used when there are one-to-many relationships in the data that's being stored. MongoDB recommends embedding documents to simplify queries and improve overall query performance.
+   - Con: Doc can be large and can slow performance.
+
+2. **Referencing:** We refer to documents in another collection in our document.
+
+   - Save the \_id field of one doc in another doc as a link between the two.
+   - Simple and sufficient for most use cases.
+   - Using references is called linking or data normalization.
+
+
+Unbounded documents
+
+Embedding data will make the document larger and impact write performance. As more data is added to each document, the entire document is rewritten into MongoDB data storage.
+
+Unbounded documents caused by embedding will eventually run into storage problems by exceeding the maximum document size of 16 MB.
+
+To prevent unbounded document sizes that may result from embedding, you can break up your data into multiple collecitons and use references to keep frequently accessed data together.
+
+ Avoid:
+More than the document size limit of 16MB
+Poor query performance
+Poor write performance
+Too much memory being
+used
+
+Common schema
+anti-patterns:
+Massive arrays
+Massive number of
+collections
+Bloated documents
+Unnecessary indexes
+Queries without indexes
+Data that's accessed together, but stored in different collections
+
+The Schema Anti-Patterns tab highlights any issues in the collection and provides details to resolve them. You can improve your schema by resolving the anti-patterns that are shown.
+
+
+
 
 <img src='./Embedding-Referencing-example.png'/>
