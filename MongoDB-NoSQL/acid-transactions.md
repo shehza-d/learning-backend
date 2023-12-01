@@ -139,3 +139,24 @@ In this section, we'll go through the code to create a transaction step by step.
 ---
 
 ACID transactions ensure that database operations, such as transferring funds from one account to another, happen together or not at all. ACID transactions work with the document model in MongoDB. Finally, you learned how to create and use multi-document transactions by using the startTransaction() and commitTransaction() commands, and how to cancel multi-document transactions by using the abortTransaction() command.
+
+```js
+const session = client.startSession();
+
+try {
+  await session.withTransaction(async () => {
+    await collection.deleteOne({ _id: 1 }, { session });
+    await collection.deleteOne({ _id: 2 }, { session });
+    await collection.updateOne(
+      { _id: 3 },
+      { $set: { name: "New Name" } },
+      { session }
+    );
+    await collection.insertOne({ _id: 4, name: "New Document" }, { session });
+  });
+} catch (error) {
+  console.log(error);
+} finally {
+  await session.endSession();
+}
+```

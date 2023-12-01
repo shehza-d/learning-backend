@@ -2,13 +2,15 @@
 
 A way to filter, sort, group, reshape, and analyze data.
 
+Aggregation operations process data records and return computed results. When working with data in MongoDB, you may have to quickly run complex operations that involve multiple stages to gather metrics for your project. Generating reports and displaying useful metadata are just two major use cases where MongoDB aggregation operations can be incredibly useful, powerful, and flexible.
+
 ## Definitions
 
 - **Aggregation**: Collection and summary of data.
 
 - **Stage**: One of the built-in methods that can be completed on the data, but does not permanently alter it.
 
-- **Aggregation pipeline**: A series of stages completed on the data in order.
+- **Aggregation pipeline**: A series of stages completed on the data in order. (An aggregation pipeline consists of one or more stages that process documents. Each stage performs an operation on the input documents. For example, a stage can filter documents, group documents, or calculate values.)
 
 **Order of stages matter!**
 
@@ -32,8 +34,8 @@ db.collection.aggregate([
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `$match`   | Filter for docs matching criteria (place early as possible)                                                                            |
 | `$group`   | Create a single docs for each distinct value , groups docs by a group key and output is 1 doc for each unique value of the group key.  |
-|`$sort`|Sorts all input docs and passes them through pipeline in sorted order.|
-|`$limit`|Limits the number of docs passes to the next aggregation stage.|
+| `$sort`    | Sorts all input docs and passes them through pipeline in sorted order.                                                                 |
+| `$limit`   | Limits the number of docs passes to the next aggregation stage.                                                                        |
 | `$project` | Determines output doc shape. (Should be last stage)                                                                                    |
 | `$set`     | Useful for adjusting existing fields or adding new ones in the pipeline, especially when preparing for upcoming stages in the process. |
 | `$count`   | Returns total docs in pipeline.                                                                                                        |
