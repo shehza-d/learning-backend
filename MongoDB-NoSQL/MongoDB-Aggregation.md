@@ -1,5 +1,7 @@
 # Introduction to MongoDB Aggregation
 
+## [Complete MongoDB Aggregation course](https://youtu.be/vx1C8EyTa7Y)
+
 A way to filter, sort, group, reshape, and analyze data.
 
 Aggregation operations process data records and return computed results. When working with data in MongoDB, you may have to quickly run complex operations that involve multiple stages to gather metrics for your project. Generating reports and displaying useful metadata are just two major use cases where MongoDB aggregation operations can be incredibly useful, powerful, and flexible.
