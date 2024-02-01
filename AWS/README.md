@@ -14,6 +14,17 @@
 
 #### [Frontend Web & Mobile on AWS](https://youtube.com/playlist?list=PL5bUlblGfe0KFsrEXuDRvHtLlRueMqh7E&si=dvhsAho551okZgkz)
 
+## [Courses](https://aws.amazon.com/getting-started/hands-on/?p=ft&c=hp&z=6&getting-started-all.sort-by=item.additionalFields.content-latest-publish-date&getting-started-all.sort-order=desc&awsf.getting-started-category=*all)
+
+### [Build a Serverless Web Application](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito)
+
+#### [Send an Email](https://aws.amazon.com/getting-started/hands-on/send-an-email/?ref=gsrchandson)
+
+<!-- #### [Send Fanout Event Notifications]() -->
+
+#### [Build a Basic Web Application](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb)
+
+https://aws.amazon.com/getting-started/guides/deploy-webapp-amplify/?ref=gsrchandson
 
 https://youtu.be/_U0pTlpyMGg
 https://www.youtube.com/playlist?list=PLinedj3B30sA0V3kLZoV0qEo5nOLyRjYA
