@@ -1,0 +1,26 @@
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "cli-user",
+            "UserId": "AIDAU6GPV273TS3RENZML",
+            "Arn": "arn:aws:iam::339737958391:user/cli-user",
+            "CreateDate": "2024-08-26T14:59:31+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "serverless-todo",
+            "UserId": "AIDAU6GPV273T3IPAH3QO",
+            "Arn": "arn:aws:iam::339737958391:user/serverless-todo",
+            "CreateDate": "2024-08-17T16:49:20+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "shehzad-learning-user",
+            "UserId": "AIDAU6GPV273ZM4IU3TTF",
+            "Arn": "arn:aws:iam::339737958391:user/shehzad-learning-user",
+            "CreateDate": "2024-01-18T17:59:43+00:00",
+            "PasswordLastUsed": "2024-01-18T18:01:31+00:00"
+        }
+    ]
+}
