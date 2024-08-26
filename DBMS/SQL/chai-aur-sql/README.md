@@ -1,0 +1,1 @@
+# [sql](https://courses.chaicode.com/learn/SQL-Basics-to-Advanced-Mastery-Course)
