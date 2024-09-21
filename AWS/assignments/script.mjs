@@ -1,6 +1,7 @@
 import { exec } from "child_process";
 import fs from "fs";
 
+// https://stackabuse.com/executing-shell-commands-with-node-js/
 exec("aws iam list-users", (error, stdout) => {
   if (error) {
     console.log(`error: ${error.message}`);
